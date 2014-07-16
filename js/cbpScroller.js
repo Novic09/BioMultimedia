@@ -121,6 +121,7 @@
 			this.sections.forEach( function( el, i ) {
 				if( inViewport( el, self.options.viewportFactor ) ) {
 					classie.add( el, 'cbp-so-animate' );
+					document.body.style.backgroundColor = el.getAttribute('data-slide');
 				}
 				else {
 					// this add class init if it doesn't have it. This will ensure that the items initially in the viewport will also animate on scroll

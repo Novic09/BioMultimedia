@@ -35,7 +35,7 @@
 	width: 50%;
 	float: left;
 	margin: 0;
-	padding: 3em 4%;
+	padding: 0 4%;
 	overflow: hidden;
 	min-height: 12em;
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
