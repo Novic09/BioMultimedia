@@ -11,6 +11,8 @@
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/component_t.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
@@ -18,12 +20,12 @@
 			<header class="clearfix">
 				<span>Bioinformatica</span>
 				<h1>CÉLULAS MADRE</h1>
-				<nav>
+				<!--nav>
 					<a href="http://tympanus.net/Blueprints/ResponsiveIconGrid/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
 					<a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a>
 					<a href="http://tympanus.net/codrops/?p=15962" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
 					<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
-				</nav>
+				</nav-->
 			</header>	
 			<div id="cbp-so-scroller" class="cbp-so-scroller">
 				<section class="cbp-so-section" data-slide="#2ecc71">
@@ -45,7 +47,7 @@
 					<article class="cbp-so-side cbp-so-side-right">
 						<h2>Un poco de Historia... </h2>
 						<p>La historia de la  investigación con células madre señalando los hechos más importantes.<br>
-						Mira <a href="3">aquí</a> los hallazgos más importantes en 40 años</p>
+						Mira <a href="#timeline" class="fancybox">aquí</a> los hallazgos más importantes en 40 años</p>
 					</article>
 				</section>
 				<section class="cbp-so-section" data-slide="#9b59b6">
@@ -93,9 +95,223 @@
 				</section>
 			</div>
 		</div>
+
+		<!-- Fancys  -->
+
+		<div style="display:none">
+			<div id="timeline">
+				<div class="container">
+					<div class="main">
+						<h1 class="title-time-line">HISTORIA DE LA INVESTIGACIÓN CON<br>CELULAS MADRES</h1>
+						<ul class="cbp_tmtimeline">
+							<li>
+								<time class="cbp_tmtime"><span>Canadá</span> <span>1958</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Se deducen los mecanismos celulares para el desarrollo del esperma y la sustitución del epitelio intestinal.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime"><span>EE.UU</span> <span>1956</span></time>
+								<div class="cbp_tmicon cbp_tmicon-screen"></div>
+								<div class="cbp_tmlabel">									
+									<p>Primeros trasplantes de médula ósea realizados en pacientes humanos.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime"><span>Reino Unido</span> <span>1958</span></time>
+								<div class="cbp_tmicon cbp_tmicon-mail"></div>
+								<div class="cbp_tmlabel">
+									<p>Los núcleos de las células de ranas adultas se reprograman para descubrir el potencial completo después de la transferencia embrionaria en huevos de rana.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>Inglaterra</span> <span>1959</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Los experimentos en ratones demuestran la existencia de células madre sanguíneas residentes en la médula.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime"><span>Canadá</span> <span>1961</span></time>
+								<div class="cbp_tmicon cbp_tmicon-earth"></div>
+								<div class="cbp_tmlabel">
+									<p>Se establece la existencia y las propiedades de las células madre para trasplantes de médula ósea de ratón. Este descubrimiento sentó las bases para todas las investigaciones actuales sobre las células troncales adultas y embrionarias.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime"><span>EE.UU</span> <span>1968</span></time>
+								<div class="cbp_tmicon cbp_tmicon-screen"></div>
+								<div class="cbp_tmlabel">
+									<p>Se logran los primeros trasplantes alogénicos de médula humana evitando reacciones de rechazo letales.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>1969</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Primera aplicación de la tecnología que separa las células madre de médula ósea para diseccionar la jerarquía de la célula.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>EE.UU.</span> <span>1978</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Se descubre que las células madre en la sangre del cordón umbilical humano son trasplantables.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>EE.UU.</span> <span>1990</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Se regenera la médula de ratones a través de células madre separas in vivo.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>1992</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Las células madre neurales son identificados en el cerebro humano adulto.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>1993</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Se demuestra la pluripotencia de las células madre embrionarias a través de la generación de células madre embrionarias derivadas de células de ratones.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>1994</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Se consigue la separación de las células madre del cáncer de la mayoría de las células en un cáncer.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Escocia</span> <span>1996</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Primera clonación de un mamífero: la oveja Dolly ha nacido.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>1969</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Primera aplicación de la tecnología que separa las células madre de médula ósea para diseccionar la jerarquía de la célula.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>2000</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Las células madre retinianas identificadas en ratones.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>2001</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Se forma por primera vez una organización para la colaboración en la investigación de células madre: la Red de Células Madre.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>2002</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Purificación completa de los ratones de células madre pluripotentes de médula ósea, capaces de regeneración de la médula ósea in vivo. 
+									Se forma la Sociedad Internacional para la Investigación de Células Madre.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>2003</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Se aíslan células madre cancerosas en los tumores cerebrales humanos.<br>
+									Se identifican raras células madre del cáncer de mama en humanos (EE.UU.).</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>EE.UU.</span> <span>2003</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>
+									Se identifican raras células madre del cáncer de mama en humanos.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>EE.UU.</span> <span>2004</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Derivación por primera vez de células dopaminérgicas desde células madre embrionarias humanas, una esperanza para el tratamiento de la enfermedad de Parkinson.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>ICSCN</span> <span>2004</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>
+									Se inicia el Consorcio Internacional de Redes de células madre, que tiene como objetivo unificar los esfuerzos internacionales para hacer terapia con células madre.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>EE.UU.</span> <span>2005</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Primera evidencia de las células madre del cáncer de huesos humanos. James Till y McCulloch Ernest ganan el Premio Lasker de experimentos en los que identificaron por primera vez células madre y prepararon el escenario para todas las investigaciones actuales sobre las células troncales adultas y embrionarias.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Japón</span> <span>2006</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Se generan las primeras células madre pluripotentes inducidas (iPS) por la reprogramación de células adultas de piel de ratón.</p>
+								</div>
+							</li>
+
+							<li>
+								<time class="cbp_tmtime" ><span>Holanda</span> <span>2007</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Mario Capecchi, Martin Evans y Oliver Smithies ganan el Premio Nobel de Fisiología de Medicina por sus descubrimientos que permiten la modificación genética de línea germinal en los ratones. Se identifican células madre intestinales de mamíferos.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span></span> <span>2008</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Sam Weiss es galardonado con el Premio Gairdner por el descubrimiento de las células madre neurales.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá</span> <span>2009</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>John Gurdon y Shinya Yamanaka ganan el Premio Lasker por sus descubrimientos en la reprogramación nuclear. Yamanaka también galardonado con el Premio Gairdner células iPS creadas con un mínimo de alteración genómica residual.</p>
+								</div>
+							</li>
+							<li>
+								<time class="cbp_tmtime" ><span>Canadá, EE.UU.</span> <span>2010</span></time>
+								<div class="cbp_tmicon cbp_tmicon-phone"></div>
+								<div class="cbp_tmlabel">
+									<p>Las células adultas reprogramadas directamente a las neuronas, músculo cardíaco y las células sanguíneas. Células iPS creadas por transfección de ARNm. Primera prueba clínica de células madre embrionarias humanas derivadas para el tratamiento de lesiones de la médula espinal.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<!-- -->
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.fancybox.pack.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/cbpScroller.js"></script>
 		<script>
+			$('.fancybox').fancybox();
 			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 		</script>
 	</body>
